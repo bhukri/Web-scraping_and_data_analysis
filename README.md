@@ -1,29 +1,30 @@
 # Web-scraping_and_data_analysis
 UofT Data Analytics Bootcamp Module 11 
-Background
+
+## Background
 You’re now ready to take on a full web-scraping and data analysis project. You’ve learned to identify HTML elements on a page, identify their id and class attributes, and use this knowledge to extract information via both automated browsing with Splinter and HTML parsing with Beautiful Soup. You’ve also learned to scrape various types of information. These include HTML tables and recurring elements, like multiple news articles on a webpage.
 
 As you work on this Challenge, remember that you’re strengthening the same core skills that you’ve been developing until now: collecting data, organizing and storing data, analyzing data, and then visually communicating your insights.
 
-What You're Creating
+### What You're Creating
 This new assignment consists of two technical products. You will submit the following deliverables:
 
 Deliverable 1: Scrape titles and preview text from Mars news articles.
 
 Deliverable 2: Scrape and analyze Mars weather data, which exists in a table.
 
-Files
+### Files
 Download the following files to help you get started:
 
 Module 11 Challenge filesLinks to an external site.
 
-Instructions
-Part 1: Scrape Titles and Preview Text from Mars News
+### Instructions
+#### Part 1: Scrape Titles and Preview Text from Mars News
 Open the Jupyter Notebook in the starter code folder named part_1_mars_news.ipynb. You will work in this code as you follow the steps below to scrape the Mars News website.
 
 Use automated browsing to visit the Mars news siteLinks to an external site.. Inspect the page to identify which elements to scrape.
 
-HINT
+#### HINT
 Create a Beautiful Soup object and use it to extract text elements from the website.
 
 Extract the titles and preview text of the news articles that you scraped. Store the scraping results in Python data structures as follows:
@@ -38,7 +39,7 @@ Print the list in your notebook.
 
 Optionally, store the scraped data in a file (to ease sharing the data with others). To do so, export the scraped data to a JSON file. (Note: there will be no extra points for completing this.)
 
-Part 2: Scrape and Analyze Mars Weather Data
+#### Part 2: Scrape and Analyze Mars Weather Data
 Open the Jupyter Notebook in the starter code folder named part_2_mars_weather.ipynb. You will work in this code as you follow the steps below to scrape and analyze Mars weather data.
 
 Use automated browsing to visit the Mars Temperature Data SiteLinks to an external site.. Inspect the page to identify which elements to scrape. Note that the URL is https://static.bc-edx.com/data/web/mars_facts/temperature.html.
@@ -73,15 +74,15 @@ Consider how many days elapse on Earth in the time that Mars circles the Sun onc
 Visually estimate the result by plotting the daily minimum temperature.
 Export the DataFrame to a CSV file.
 
-Requirements
-Part 1: Scrape Titles and Preview Text from Mars News (40 points)
+### Requirements
+#### Part 1: Scrape Titles and Preview Text from Mars News (40 points)
 Automated browsing (with Splinter) was used to visit the Mars news site, and the HTML code was extracted (with Beautiful Soup). (10 points)
 
 The titles and preview text of the news articles were scraped and extracted. (20 points)
 
 The scraped information was stored in the specified Python data structure—specifically, a list of dictionaries. (10 points)
 
-Part 2: Scrape and Analyze Mars Weather Data (60 points)
+#### Part 2: Scrape and Analyze Mars Weather Data (60 points)
 The HTML table was extracted into a Pandas DataFrame. Either Pandas or Splinter and Beautiful Soup were used to scrape the data. The columns have the correct headings and data types. (15 points)
 
 The data was analyzed to answer the following questions: (10 points)
